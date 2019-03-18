@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.header {
+  height:400rpx;
+  background:#426dff;
+}
