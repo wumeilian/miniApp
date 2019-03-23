@@ -8,3 +8,17 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.flex-wrp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.triangle-down {
+    width: 0px;
+    height: 0;
+    border-left: 12rpx solid transparent;
+    border-right: 12rpx solid transparent;
+    border-top: 12rpx #fff solid;
+}

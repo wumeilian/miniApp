@@ -1,4 +1,59 @@
 /**index.wxss**/
+.header {
+  padding:46rpx 0;
+  background:#426dff;
+}
+
+.expense {
+  margin-bottom:60rpx;
+  text-align:center;
+  font-size:28rpx;
+  color:#fff;
+}
+
+.expense view {
+  margin-bottom: 20rpx;
+}
+
+.price {
+  margin-right:18rpx;
+  font-size:44rpx;
+}
+
+.header-des {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.picker {
+  margin-top: 10rpx;
+  overflow: hidden;
+  
+}
+
+.month-num {
+  font-size: 32rpx;
+}
+
+.picker .triangle-down {
+  float: right;
+  margin:18rpx 0 0 10rpx;
+}
+
+.line {
+  height:50rpx;
+  border-right: 1px solid #fff;
+}
+
+.income-num {
+  margin-top: 10rpx;
+}
+
+.income-num text {
+  margin-right: 10rpx;
+  font-size: 32rpx;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -20,7 +75,3 @@
   margin-top: 200px;
 }
 
-.header {
-  height:400rpx;
-  background:#426dff;
-}

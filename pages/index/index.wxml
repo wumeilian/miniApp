@@ -2,26 +2,33 @@
 <view class="header">
   <view class="expense">
     <view>支出</view>
-    <view><text>1134.55</text>元</view>
+    <view><text class="price">1134.55</text>元</view>
   </view>
   
-  <view class="flex-wrp" style="height: 300px;flex-direction:row;">
-    <view class="flex-item bc_green">
-      <view>2018年</view>
+  <view class="header-des flex-wrp">
+    <view class="time">
+      <view>{{date[0]}}年</view>
       <picker
         mode="date"
         value="{{date}}"
-        start="2015-09-01"
-        end="2017-09-01"
-        bindchange=""
-      >
-      <view class="picker">
-        当前选择: {{date}}
-      </view>
+        start="2019-01"
+        end="2030-12"
+        fields="month"
+        bindchange="bindDateChange">
+        <view class="picker">
+          <text class="month-num">{{date[1]}}</text> 月
+          <text class="triangle-down"></text>
+        </view>
       </picker>
     </view>
-    <view class="flex-item bc_red">2</view>
-  </view>
+
+    <view class="line"></view>
+
+    <view class="income">
+      <view>收入</view>
+      <view class="income-num"><text>2000</text>元</view>
+    </view>
+  </view> 
 </view>
 
 <view class="container">
