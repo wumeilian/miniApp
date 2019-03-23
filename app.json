@@ -11,6 +11,7 @@
   },
   "tabBar": {
     "selectedColor": "#426dff",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
